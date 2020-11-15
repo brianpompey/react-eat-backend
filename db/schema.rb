@@ -14,7 +14,6 @@ ActiveRecord::Schema.define(version: 2020_11_15_150705) do
 
   create_table "restaurants", force: :cascade do |t|
     t.string "name"
-    t.string "image_url"
     t.string "website"
     t.string "location"
     t.string "cuisine"
